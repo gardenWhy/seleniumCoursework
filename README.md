@@ -3,7 +3,7 @@
 + 放置python根目录
 #  selenium测试经销后台
 ## 整体架构
-![测试项目](.\软件测试结课作业\img\测试项目.png)
+![测试项目](./软件测试结课作业/img/测试项目.png)
 如图所示，整体架构为四大板块，`testCasehtml.py`复制整合所有测试套件并输出html测试文档，`finTest.py`中定义了所有测试方法，`FinTestCase.py`则进行对方法的调用并测试，而`MyCommonLib.py`是为底层方法提供支持
 ## finTest.py
 ###  login()
